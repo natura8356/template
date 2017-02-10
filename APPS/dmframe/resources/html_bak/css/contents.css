@@ -1,0 +1,174 @@
+@charset "utf-8";
+@import url('common.css');
+
+/* layout */
+#container{width:100%;min-width:1245px;height:100%;text-align:center}
+.inWrap{position:relative;width:1245px;margin:0 auto;text-align:left}
+.inWrap:after{display:block;content:'';clear:both}
+
+/* header */
+header{position:relative;width:100%;height:105px}
+header:after{display:block;content:'';clear:both}
+header #head{height:47px}
+header #head h1{float:left;margin-top:17px}
+header #head .gnb{float:right;padding-top:17px;text-align:right}
+header #head .gnb a{position:relative;margin-left:20px}
+header #head .gnb a.gray{padding-left:15px;margin-left:10px}
+header #head .gnb a.gray:after{display:inline-block;content:' ';width:1px;height:13px;background:#dce1e6;position:absolute;left:0;top:2px}
+header .gnb a,header .gnb em{display:inline-block}
+
+/* navigation */
+nav{height:58px;background:#00275e}
+nav .inWrap>div{position:relative;float:left;width:110px;height:58px;text-align:center}
+nav .inWrap>div>a{display:inline-block;color:#dbe1e8;font-weight:bold;line-height:58px;width:168px;text-align:center}
+nav .inWrap>div>a:hover{font-size:13px;color:#fff}
+nav .inWrap .submenu{position:relative;top:-7px;left:-65%;width:320px;height:auto;background:#144aa0;color:#fff;border:1px solid #295fd8;border-radius:1px;z-index:500}
+nav .inWrap .submenu em{position:relative;top:-8px;margin:0 auto;display:block;width:15px;height:8px;background:url(../images/common/nav_subbox_arr.png) no-repeat;text-indent:-10000em;font-size:0}
+nav .inWrap .submenu a{font-size:11px;color:#cbe7ff;display:block;line-height:11px}
+nav .inWrap .submenu p>a{font-size:12px;color:#fff;font-weight:bold}
+nav .inWrap .submenu .row{overflow:hidden;padding:0 30px 25px;text-align:left}
+nav .inWrap .submenu .col{float:left;margin-top:-8px}
+nav .inWrap .submenu .col>div{margin-top:22px}
+nav .inWrap .submenu .col .bdr{padding-left:7px;margin-top:10px;border-left:1px solid #cbe7ff}
+nav .inWrap .submenu .col .bdr>a{margin-top:6px}
+nav .inWrap .submenu .col:first-child{padding-right:30px;margin-right:20px;border-right:1px solid #436eb3}
+
+/* mainContainer */
+#mainContainer h2{font-size:20px;color:#010101;font-weight:bold}
+#mainContainer .colLeft{position:relative;float:left;width:380px;padding-top:14px;}
+#mainContainer .colRight{position:relative;float:left;width:847px;margin-left:17px;padding-top:14px;}
+#mainContainer .conTitle{height:30px}
+#mainContainer .conTitle h2>span.count{margin-left:13px;color:#666;font-size:12px;font-weight:normal}
+#mainContainer .conTitle h2>span.count>em{color:#f86c68}
+#mainContainer .conTitle a.more{display:block;float:right;margin-top:10px;font-size:11px;color:#666}
+#mainContainer .conTitle a.more em{width:5px;height:9px;margin:0 4px 0 7px;background-position:-80px -65px}
+#mainContainer article{position:relative;width:100%;height:348px;background:#f4f5f9}
+
+article .dateTitle{overflow:hidden}
+article .dateTitle h2{float:left;width:153px}
+article .dateTitle .dateNav{float:left}
+article .dateTitle .dateNav span,.dateTitle .dateNav a{display:inline-block}
+article .dateTitle .dateNav span{width:190px;text-align:center;color:#282c38;font-size:17px !important;position:relative;top:1px}
+article .dateTitle .dateNav a.prev{width:11px;height:20px;background-position:0 -20px}
+article .dateTitle .dateNav a.next{width:11px;height:20px;background-position:-20px -20px}
+article .todoList{position:relative;overflow-y:scroll;width:380px;height:276px;margin-top:9px;background:#f4f5f9}
+article .todoList>ul>li{width:355px;height:41px;line-height:40px;border:1px solid #dbe1e8;border-radius:10px;background:#fff;margin-top:3px}
+article .todoList>ul>li:first-child{margin-top:0}
+article .todoList>ul>li>a{display:inline-block;height:40px;font-size:13px;color:#525969}
+article .todoList>ul>li>a>del{color:#b5b8bd}
+article .todoList em.ico{width:22px;height:22px;margin:0 16px 0 15px}
+article .todoList em.ico.do_a{background-position:0 -40px}
+article .todoList em.ico.do_b{background-position:-25px -40px}
+article .todoList em.ico.do_c{background-position:-50px -40px}
+article .todoList em.ico.do_d{background-position:-75px -40px}
+article .todoList em.ico.do_e{background-position:-100px -40px}
+article .todoList em.ico.do_f{background-position:-125px -40px}
+article .todoList em.ico.do_g{background-position:-150px -40px}
+
+article .schedule .conTitle h2{display:inline-block;vertical-align:middle}
+article .schedule .conTitle .fl .ico{position:relative;top:2px;width:25px;height:20px}
+article .schedule .conTitle .fl .ico.prev{margin-left:10px;background-position:-40px -20px}
+article .schedule .conTitle .fl .ico.next{width:24px;height:20px;background-position:-81px -20px}
+article .schedule .conTitle .fr{text-align:right;padding-top:7px}
+article .schedule .conTitle .fr span{background-image:none;width:39px;height:18px;line-height:17px;font-size:8pt;color:#fff;text-align:center;border-radius:3px}
+article .schedule .conTitle .fr span.badge_a{background:#0474c8}
+article .schedule .conTitle .fr span.badge_b{background:#37acc1}
+article .schedule .conTitle .fr span.badge_c{background:#45b854}
+article .schedule .conTitle .fr span.badge_d{background:#8191a6}
+article .schedule .conTitle .fr span.badge_e{background:#f86b67}
+article .schedule table{width:100%;margin-top:8px;border-top:1px solid #d4d6dd;border-bottom:1px solid #d4d6dd}
+article .schedule table th,.schedule table td{width:14.2%}
+article .schedule table th{height:28px;text-indent:15px}
+article .schedule table th:first-child{color:#ff5601}
+article .schedule table th:last-child{color:#008fd5}
+article .schedule table tr td:first-child{border-left:none}
+article .schedule table td{position:relative;height:118px;vertical-align:top;font-size:11px;border-top:1px solid #d4d6dd;border-left:1px solid #d4d6dd}
+article .schedule table td p{color:#878787;padding:10px 0 0 15px}
+article .schedule table td ul{margin-top:6px}
+article .schedule table td ul li>a{color:#fff}
+article .schedule table td ul li{width:100%;height:15px;overflow:hidden;color:#fff;text-indent:15px;line-height:14px;margin-top:2px}
+article .schedule table td ul li.col_a{background:#0474c8}
+article .schedule table td ul li.col_b{background:#37acc1}
+article .schedule table td ul li.col_c{background:#5abf67}
+article .schedule table td ul li.col_d{background:#8191a6}
+article .schedule table td ul li.col_e{background:#f86b67}
+article .schedule table td.on>div{position:absolute;top:-1px;left:-1px;width:100%;height:118px;background:#fff;border:1px solid #00275e}
+
+article aside{position:absolute;top:9px;right:-149px;width:131px;height:319px;background:#eceef3}
+article aside h2,article aside ul{width:109px;margin:0 auto}
+article aside h2{font-size:15px !important;height:40px;line-height:40px;padding-top:2px;color:#282c38;border-bottom:1px solid #8a8c8d}
+article aside h2 em.ico{position:relative;top:-2px;width:12px;height:10px;margin-right:10px;background-position:-80px 0}
+article aside ul{margin-top:3px}
+article aside ul>li:first-child>a{border-top:none}
+article aside ul>li>a{display:inline-block;width:100%;height:40px;line-height:40px;border-top:1px solid #dee0e2;color:#282c38;text-indent:4px}
+
+#mainContainer section{min-height:430px}
+#mainContainer section .colLeft,#mainContainer section .colRight{padding-top:17px}
+section .conTitle{padding-bottom:8px}
+section .defect{height:417px}
+section .defect .conTitle.second{margin-top:24px}
+section .defect .statusBoard{height:39px;padding:24px 0 27px;border-bottom:1px solid #000;border-top:1px solid #e6eaee}
+section .defect .statusBoard span,section .defect .statusBoard strong{display:inline-block;font-weight:normal;vertical-align:middle}
+section .defect .statusBoard span{position:relative;top:2px;padding:0 13px 0 9px;font-size:15px;color:#666}
+section .defect .statusBoard strong{position:relative;top:-3px;color:#000;font-size:37px}
+section .defect .statusBoard em{position:relative;top:-1px;width:36px;height:36px}
+section .defect .statusBoard em.workDone{background-position:0 -65px}
+section .defect .statusBoard em.workUndo{background-position:-40px -65px}
+section .defect .statusBoard .fl,section .defect .statusBoard .fr{width:165px;padding-left:19px;height:39px;line-height:39px}
+section .defect .statusBoard .fr{float:left;width:160px;margin-left:15px;border-left:1px solid #d4dbe4}
+section .defect table.basic{position:absolute;bottom:0;left:0}
+
+table.basic{width:100%}
+table.basic th{height:35px;line-height:35px;color:#8a98ab;font-weight:bold;text-align:center;border-top:1px solid #e6eaee;border-bottom:1px solid #c3cad4}
+table.basic td{height:31px;line-height:31px;text-align:center;border-top:1px solid #e7e9ed}
+table.basic tr:hover{cursor:pointer}
+table.basic tr:first-child td{border-top:none}
+table.basic tr:nth-child(even) td{background:#f5f8fa}
+section .colRight table.basic th{height:54px;line-height:54px;font-size:13px}
+section .colRight table.basic td{height:35px;line-height:35px}
+section .colRight table.basic td.txtL{text-indent:15px}
+section .colRight .listWrap{height:323px;overflow-y:scroll}
+
+footer{width:100%;height:85px;background:#fff;border-top:1px solid #ccd0d6}
+footer .inWrap{text-align:center;padding-top:25px;font-size:11px}
+
+
+/* 팝업 */
+.popupWrap{position:absolute;width:100%;height:100%;top:0;left:0}
+#popup{position:relative;top:185px;width:800px;min-height:500px;border:1px solid #9d9fa2;margin:0 auto;background:#fff;z-index:900;box-shadow: 5px 5px 20px #999;}
+#popup .popHead{position:relative;width:100%;height:35px;line-height:33px;background:#00275e;color:#b8bdc9;font-size:11px}
+#popup .popHead strong{color:#fff;font-size:14px;margin:0 15px 0 21px;font-weight:normal}
+#popup .popHead a.ico.popClose{position:absolute;top:10px;right:15px;width:15px;height:15px;background-position:-80px -75px}
+#popup .popContent{padding:30px 40px 25px}
+#popup .popContent .row{overflow:hidden;margin-bottom:36px}
+#popup .popContent dl{float:left;width:157px;margin-left:29px}
+#popup .popContent dl:first-child{margin-left:0px}
+#popup .popContent dt{padding-bottom:9px;margin-bottom:15px;font-size:15px;font-weight:bold;color:#3d3d3d;border-bottom:1px solid #717171}
+#popup .popContent dd{margin-top:10px;color:#333}
+#popup .popContent dd input{margin-right:9px;vertical-align:middle}
+#popup .popFoot{text-align:center}
+#popup .popFoot .btnWhite{display:inline-block;width:103px;height:33px;line-height:31px;background:#fff;color:#000;border:1px solid #bdc1ca}
+
+/* 드롭다운메뉴 */
+nav .inWrap .submenu{
+display:none;
+}
+nav .inWrap>div:hover .submenu{
+display:block;
+}
+
+/* 사이드 메뉴 */
+aside{
+display:none;
+}
+
+
+/* 즐겨찾기 */
+
+div.icon {
+    width: 50px;
+    height: 50px;
+    z-index: 129;
+    top: 11px;
+    left: -10px;
+}

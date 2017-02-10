@@ -1,0 +1,391 @@
+{
+    "data": {
+        "useprsn_id": "admin",
+        "useprsn_cnt": 1,
+        "MENU_DATA" :[
+            {
+                "MENU_NAME": "모니터링",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp001.TMP001V",
+                                "MENU_WIDGET": "TMP001V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp003.TMP003V",
+                                "MENU_WIDGET": "TMP003V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp004.TMP004V",
+                                "MENU_WIDGET": "TMP004V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp005.TMP005V",
+                                "MENU_WIDGET": "TMP005V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp006.TMP006V",
+                                "MENU_WIDGET": "TMP006V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp001.TMP001V",
+                                "MENU_WIDGET": "TMP001V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp003.TMP003V",
+                                "MENU_WIDGET": "TMP003V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp004.TMP004V",
+                                "MENU_WIDGET": "TMP004V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp005.TMP005V",
+                                "MENU_WIDGET": "TMP005V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp006.TMP006V",
+                                "MENU_WIDGET": "TMP006V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp004.TMP004V",
+                                "MENU_WIDGET": "TMP004V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp005.TMP005V",
+                                "MENU_WIDGET": "TMP005V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp006.TMP006V",
+                                "MENU_WIDGET": "TMP006V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "기준정보관리",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "하자관리",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp001.TMP001V",
+                                "MENU_WIDGET": "TMP001V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp003.TMP003V",
+                                "MENU_WIDGET": "TMP003V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp004.TMP004V",
+                                "MENU_WIDGET": "TMP004V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp005.TMP005V",
+                                "MENU_WIDGET": "TMP005V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp006.TMP006V",
+                                "MENU_WIDGET": "TMP006V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "외주관리",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp007.TMP007V",
+                                "MENU_WIDGET": "TMP007V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp008.TMP008V",
+                                "MENU_WIDGET": "TMP008V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp010.TMP010V",
+                                "MENU_WIDGET": "TMP010V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.template.tmp011.TMP011V",
+                                "MENU_WIDGET": "TMP011V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.template.tmp012.TMP012V",
+                                "MENU_WIDGET": "TMP012V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.template.tmp013.TMP013V",
+                                "MENU_WIDGET": "TMP013V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "하자보수비관리",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "모니터링",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "MENU_NAME": "기준정보관리",
+                "MENU_CODE": "GRP01",
+                "children": [
+                    {
+                        "MENU_NAME": "인수인계관리",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    },
+                    {
+                        "MENU_NAME": "인수인계관리2",
+                        "children" : [
+                            {
+                                "MENU_NAME": "인수인계관리1",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리2",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            },
+                            {
+                                "MENU_NAME": "인수인계관리3",
+                                "MENU_CLASS":"template.view.tmp002.TMP002V",
+                                "MENU_WIDGET": "TMP002V"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "success": true
+}
