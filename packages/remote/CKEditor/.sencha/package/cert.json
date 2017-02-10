@@ -1,0 +1,23 @@
+{
+  "data": {
+    "created": "2016-03-31T23:10:19Z",
+    "email": "richardstyles@gmail.com",
+    "expires": "2021-04-01T00:00:00Z",
+    "name": "RichardStyles",
+    "uuid": "6309b7c0-f25d-42a5-bf8d-e223c165d0b1"
+  },
+  "publicKey": {
+    "algorithm": "RSA",
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjdUBqhHdLDIR/v8AcTw58rE3Nd66H23aQpYh5adRN1MiEq0I+iIV4MA0TtpbbOhu3isFq9AxFfg+ZsIMzVQt0TYDRQFz6UCAGYs3r0NrlXvmQbn6D1ib4oOrfHb0cWNYFDic2DhWAqnetYvYp7ZhDnvDDx37DOYyQqoKaerzQ9iQfZiwEjnAZCsjCHw5HQo8YCOtWhQhiYGQCyRMLJQAeb9sjDdvAaEyIQKB4Z/OuwNhwi3X/LVrLtuvJv23KwlUq3cyp95DDYR2JTBtWYw9YC+J/fUmNnXbUoK08cFNHqXS7KBahfbHozwdzqEO6uUKIUu0ndtmX6DvPaAittw3QQIDAQAB"
+  },
+  "signatures": [
+    {
+      "name": "RichardStyles",
+      "uuid": "6309b7c0-f25d-42a5-bf8d-e223c165d0b1",
+      "created": "2016-03-31T23:10:20Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "WuRwENg9v08\u003d",
+      "signature": "cpYJ8d7Na2udoqTvMhhPg5ghmNIUICwdBGNYgOB0Tmgz6tqA4Fceqx3tl69GmHNYMr2d2alD50lLYyIrH4DKD9oj/R7TXfBjBcAb1PpCHtfWjtL25SbK5v45xAeE2Wt1PoBuOR2Il+yhK/EGjHT48Hm8S2lDNRDJWKJ0I+FOB+78LkQEdZVGgX6/BRMWC8kRmfCeoWmyVv4nZKBLZec/+ZLDVrkof/z5lSL7CCy9I/9jl1s70Iv2cqYKOZLN+f1IHR29d9MQmMtjVsb6/zFGlb2K9FpD00vXtNkmEAmPGAjq33cD/Dd0+a4GFWFi0QpHP+fxI2jYIV0QUaN8lmNayg\u003d\u003d"
+    }
+  ]
+}

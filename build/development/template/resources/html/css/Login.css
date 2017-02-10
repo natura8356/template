@@ -1,0 +1,57 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+/* 20161005 login 추가 */
+#loginDRMS{position:relative;width:612px;margin:140px auto 0;text-align:left;font-family:NotoSans;font-weight:300;border-bottom:1px solid #c4cdda}
+#loginDRMS .loginHead{height:74px;border-top:2px solid #60789b;border-bottom:1px solid #c4cdda}
+#loginDRMS .loginHead img{margin-top:28px}
+#loginDRMS .loginContents{position:relative;overflow:hidden;height:319px;margin:13px 0;background:#eff2f5}
+#loginDRMS .loginContents .loginBox{position:relative;float:left;height:319px;width:380px;background:#00275e}
+#loginDRMS .loginContents .loginBox .inner{padding:40px 40px 30px}
+#loginDRMS .loginContents .loginBox .inputBox{padding-left:50px;height:51px;line-height:52px;background:#fff url(../image/ico_drms_login.png) no-repeat}
+#loginDRMS .loginContents .loginBox .inputBox.pw{margin:6px 0 12px;background-position:0 -51px}
+#loginDRMS .loginContents .loginBox .inputBox input{height:30px;width:230px;line-height:30px;margin-top:10px;border:none;background:#fff}
+#loginDRMS .loginContents .loginBox p{margin:0;font-size:13px;color:#fff}
+#loginDRMS .loginContents .loginBox input{vertical-align:middle}
+#loginDRMS .loginContents .loginBox a.login{display:block;margin:15px 0 10px}
+#loginDRMS .loginContents .loginBox a.login img{border:none}
+#loginDRMS .loginContents .loginBox p.pwChange{text-align:right}
+#loginDRMS .loginContents .loginBox p.pwChange a{display:inline-block;color:#c3d3e5;border-bottom:1px solid #c3d3e5;line-height:16px;font-size:13px;text-decoration:none}
+#loginDRMS .loginContents .copy{float:right;width:232px;height:227px}
+#loginDRMS .loginContents .copy div{height:225px;margin:27px;font:normal 12px/17px NotoSans;color:#a5a5a5}
+#loginDRMS .loginContents .copy div strong{display:inline-block;margin-bottom:0px;color:#58585a;font:normal 13px NotoSans;font-weight:700;text-transform:uppercase;letter-spacing:0.075em}
+#loginDRMS .loginContents .copy p{margin:0px;padding-right:17px;font:normal 10px/12px NotoSans;color:#a5a5a5;text-align:right;letter-spacing:0.09em}
+#loginDRMS .loginContents .copy strong{font-weight:normal;font-weight:700;color:#7a7a7a}
+
+@font-face {
+  font-family: 'NotoSans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+       url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+       url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+@font-face {
+   font-family: 'NotoSans';
+   font-style: normal;
+   font-weight: 400;
+   src: url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+ }
+@font-face {
+   font-family: 'NotoSans';
+   font-style: normal;
+   font-weight: 500;
+   src: url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Medium.otf) format('opentype');
+ }
+ @font-face {
+   font-family: 'NotoSans';
+   font-style: normal;
+   font-weight: 700;
+   src: url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+        url(http://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+ }

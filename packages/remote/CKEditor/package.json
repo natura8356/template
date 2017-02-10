@@ -1,0 +1,45 @@
+{
+  "name": "CKEditor",
+  "namespace": "ckeditor",
+  "format": "1",
+  "version": "1.1.0",
+  "creator": "RichardStyles",
+  "summary": "Allow use of CKEditor in ExtJS",
+  "detailedDescription": "Rich text web editor using CKEditor",
+  "type": "code",
+  "signatures": [
+    {
+      "name": "RichardStyles",
+      "uuid": "6309b7c0-f25d-42a5-bf8d-e223c165d0b1",
+      "created": "2016-04-04T16:01:20Z",
+      "algorithm": "SHA1withRSA",
+      "nonce": "2EjjpZGcWZU\u003d",
+      "signature": "SoN9tosQ3LkJ89cTGMKKQl01LWU6vds6sxlhf+uxlJlLmOfEQaWsyN7d+IEu10CIavWtOcr+NuFTIfTaYAKGe7if514twQgSH2tgYColluhDKVVldIpyg5hmeNPN8Ozrny6sH/RaHtvN7SUgTgDJLNaMclIxhRVgzffWvT/+xTtCeldUVPQA4dK1GBf+0gumiAkaV1TEwgqOcVyRDf3B5mhCnittkRVEj8hZVVKh/NrQk9GtYzLAk1qPlAymNlsV9dH1R7+Jmf+kkSQLxhB2O+utd4yMCfND6LLwRWagSFH+ZPQK+n51LCXXSJzM8M6rV6h2hx8+aqJi/sJXqUMojw\u003d\u003d"
+    }
+  ],
+  "architect": {
+    "compatFrameworks": [
+      "ext6",
+      "ext51",
+      "ext5"
+    ],
+    "classes": [
+      {
+        "definition": "CKEditor.Definition.js",
+        "className": "Ext.ckeditor.CKEditor",
+        "js": [
+          "CKEditor.js"
+        ],
+        "css": []
+      }
+    ]
+  },
+  "toolkit": "classic",
+  "output": "${package.dir}/build",
+  "classpath": [
+    "${package.dir}/src"
+  ],
+  "example": {
+    "path": []
+  }
+}
