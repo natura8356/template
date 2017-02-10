@@ -1451,6 +1451,7 @@ $include-template-view-process-step05-step05m: dynamic(true);;
 $include-template-view-process-step05-step05v: dynamic(true);;
 $include-template-view-protocol-fileform: dynamic(true);;
 $include-template-view-protocol-source: dynamic(true);;
+$include-template-view-style-source: dynamic(true);;
 $include-template-view-style-style: dynamic(true);;
 $include-template-view-tabpanel-source: dynamic(true);;
 $include-template-view-tabpanel-tabpanel: dynamic(true);;
