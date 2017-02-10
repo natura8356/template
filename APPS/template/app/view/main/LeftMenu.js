@@ -87,6 +87,11 @@ Ext.define('template.view.main.LeftMenu', {
                         leaf: true,
                         pgmClass: 'template.view.tabpanel.TabPanel',
                         pgmAlias: 'tabpanel-tabpanel'
+                    },
+                    {
+                        text: 'Style',
+                        leaf: true,
+                        pgmClass: 'template.view.style.Style'
                     }
                 ]
             }
