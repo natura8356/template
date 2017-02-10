@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/* Reset */
+*{margin:0;padding:0}
+html,body{width:100%;height:100%;vertical-align:top}
+html,body{width:100%;height:100%;vertical-align:top}
+html{overflow-y:scroll;font-size:10px}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,form,fieldset,p,button{margin:0;padding:0}
+body,h1,h2,h3,h4,input,button{font-family:Malgun Gothic, Dotum,'돋움',Helvetica,AppleSDGothicNeo,sans-serif;font-size:12px;color:#666}
+body{background-color:#fff;text-align:center;*word-break:break-all;-ms-word-break:break-all}
+img,fieldset,iframe{border:0 none}
+li{list-style:none}
+input,select,button{vertical-align:middle}
+img{vertical-align:top}
+i,em,address{font-style:normal}
+label,button{cursor:pointer}
+button{margin:0;padding:0;background:none;border:none;outline:none}
+a{color:#666;text-decoration:none;cursor:pointer}
+a:hover{text-decoration:none}
+option{padding-right:6px}
+hr{display:none}
+legend{*width:0}
+table{border-collapse:collapse;border-spacing:0}
+table caption{height:0;text-indent:-10000em;font-size:0;line-height:0}
+input::-ms-clear{display:none}
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
+
+/* Common */
+.flow{overflow:hidden}
+.row:after{content:'';display:block;clear:both}
+.fl{float:left}
+.fr{float:right}
+.show{display:block}
+.hide{display:none}
+.blind,legend{display:block;overflow:hidden;position:absolute;top:-1000em;left:0}
+.ellipsis{overflow:hidden;white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis}
+.row:after{clear:both;display:block;content:''}
+.blue{color:#00275e !important}
+.gray{color:#979797 !important}
+.red{color:#e53a4f !important}
+.col_y{color:#fbfd40 !important}
+.colR{float:right;width:50%}
+.txtC{text-align:center !important}
+.txtL{text-align:left !important}
+.txtR{text-align:right !important}
+.mt10{margin-top:10px}
+a.uline:hover{text-decoration:underline}
+
+/* icon */
+.ico{display:inline-block;vertical-align:middle;background-image:url(../images/common/icons.png)}
+.ico.arr01{width:5px;height:3px;background-position:0 0;margin-left:7px}
+.ico.arr02{width:9px;height:5px;background-position:-10px 0;position:absolute;right:16px;top:8px}
+.ico.arr03{width:9px;height:5px;background-position:-20px 0;position:relative;top:-2px}
+.ico.arr04{width:9px;height:5px;background-position:-30px 0;margin-left:12px}
+.ico.more{width:5px;height:9px;background-position:-20px -30px;margin-left:7px;margin-right:2px}
+.ico.add{width:9px;height:9px;background-position:0 -30px;margin:-1px 12px 0 8px}
+.ico.del{width:8px;height:8px;background-position:-10px -30px;margin:0 14px 0 9px}
+.ico.del02{width:8px;height:8px;background-position:-40px 0;margin:0 9px 0 -8px}
+.ico.help{width:16px;height:16px;background-position:0 -70px;margin-right:7px}
+.ico.down{width:16px;height:15px;background-position:-20px -70px;margin-right:9px}
+.ico.bookmark{width:18px;height:18px;background-position:-20px -10px;margin:-1px 5px 0 23px}
+.ico.user{width:14px;height:14px;background-position:-60px 0;margin-left:9px}
+.ico.filedown{width:26px;height:22px;background-position:-40px -70px;margin-left:9px}
+.ico.lnbClose{width:15px;height:15px;background-position:-30px -40px;position:absolute;top:-3px;right:0}
+.ico.lnbSrch{width:16px;height:16px;background-position:0 -115px}
+.ico.lnbMinus{width:17px;height:17px;background-position:0 -95px;float:right;margin-right:6px;margin-top:10px}
+.ico.lnbMinus:hover{background-position:-20px -95px}
+.ico.lnbPlus{width:17px;height:17px;background-position:-40px -95px;float:right;margin-right:6px;margin-top:10px}
+.ico.lnbPlus:hover{background-position:-60px -95px}
+.ico.state01{width:18px;height:18px;margin-right:6px;background-position:0 -135px}
+.ico.state02{width:18px;height:18px;margin-right:6px;background-position:-20px -135px}
+.ico.state03{width:18px;height:18px;margin-right:6px;background-position:-40px -135px}
+.ico.state04{width:18px;height:18px;margin-right:6px;background-position:-60px -135px}
+
+.ico.date01{width:12px;height:11px;background-position:-20px -116px;margin-right:9px}
+.ico.date02{width:12px;height:11px;background-position:-35px -116px;margin-right:9px}
+.ico.date03{width:12px;height:11px;background-position:-50px -116px;margin-right:9px}
+
+/* button */
+.btn{display:inline-block;vertical-align:middle}
+.btn.download{position:relative;float:right;width:93px;height:22px;line-height:22px;margin:2px 1px 0 0;border:1px solid #babdc7;font-size:11px;color:#000;text-indent:11px}
+.btn.download>.ico{position:absolute;top:0;right:0;border:1px solid #babdc7;border:0}
+.btn.more{position:relative;top:3px}
+.btn.info{width:49px;height:18px;line-height:18px;text-align:center;font-size:9px;color:#747483;font-weight:bold;background:#fff;border:1px solid #d9dbe1}
+.btn.info:hover{color:#fff;background:#00275e}
+.btn.tb,.btn.tb.off{position:absolute;right:0;top:0;width:40px;height:35px;background:url(../images/common/ico_arr_bluebox.png) no-repeat}
+.btn.tb.on{background-position:0 -35px}

@@ -1,0 +1,20 @@
+{
+	"data": [
+		{
+			"id": 1001,
+		    "calendarId": 1,
+		    "startDate": "2017-01-01T21:30:00.000Z",
+		    "endDate": "2017-02-28T22:30:00.000Z",
+		    "title": "Watch cartoons",
+		    "description": "Catch up with adventurers Finn and Jake"
+		},
+		{
+			"id": 1002,
+			"calendarId": 1,
+			"startDate": "2017-01-01T21:30:00.000Z",
+			"endDate": "2017-02-28T22:30:00.000Z",
+			"title": "Watch cartoons",
+			"description": "Catch up with adventurers Finn and Jake"
+		}
+	]
+}
